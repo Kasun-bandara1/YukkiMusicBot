@@ -31,7 +31,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Commands Menu📢", callback_data="shikhar"
                 ),
             ],
             [
@@ -93,10 +93,10 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📲Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="❓Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
